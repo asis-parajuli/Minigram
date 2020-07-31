@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './minigram.png';
 import './App.css';
+import Post from './Post';
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <div className="app__header">
         <img className="app__headerImage" src={logo} alt="logo"></img>
       </div>
-      <h1>Starter</h1>
-
+      <h1>User Stories</h1>
+      <hr />
+      <Post />
     </div>
   );
 }
